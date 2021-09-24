@@ -16,6 +16,13 @@ Create AWS User with API access.
 ```
 git clone https://github.com/Senas23/cp_holc1.git
 ```
+Create `terraform.tfvars` with:
+```
+drupalkey {
+  name = "drupalkey"
+  hash = "<YOUR SSH PUB KEY e.g. from ~/.ssh/id_rsa.pub>"
+}
+```
 ```
 export AWS_ACCESS_KEY_ID=<ACCESS KEY>
 export AWS_SECRET_ACCESS_KEY=<SECRET KEY>
