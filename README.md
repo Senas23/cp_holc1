@@ -18,7 +18,7 @@ git clone https://github.com/Senas23/cp_holc1.git
 ```
 Create `terraform.tfvars` with:
 ```
-drupalkey {
+drupalkey = {
   name = "drupalkey"
   hash = "<YOUR SSH PUB KEY e.g. from ~/.ssh/id_rsa.pub>"
 }
