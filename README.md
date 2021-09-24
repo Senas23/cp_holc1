@@ -28,5 +28,7 @@ export AWS_ACCESS_KEY_ID=<ACCESS KEY>
 export AWS_SECRET_ACCESS_KEY=<SECRET KEY>
 ```
 ```
-terraform init && terraform plan && terraform apply
+terraform init && terraform plan && terraform apply --auto-approve
 ```
+Update your `~/.ssh/config` with `Include config_aws`
+Once all deployed, you can SSH to the NATSERVER with `ssh natserver` using `ProxyJump`
